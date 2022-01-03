@@ -73,7 +73,11 @@ namespace BudgetTest
             //OUTPUT
             Console.WriteLine();
 
-            Console.WriteLine($"Rule : 50/40/10 \n50% ({(salary/2):f2} лв.) for needs (food, house, transport, debt) \n40% ({(salary*0.40):f2} лв.)for investment (emergency fund, self-education, stocks/ETFs, rental, properties) \n10% ({(salary*0.10):f2} лв.) for wants (restaurants, entertainment, vacations, luxuary items, electronics)");
+            Console.WriteLine($"Rule : 50/40/10 \n50% ({(salary/2):f2} лв.) for needs (food, house, transport, debt) \n" +
+                $"40% ({(salary*0.40):f2} лв.)for investment (emergency fund, self-education," +
+                $" stocks/ETFs, rental, properties\n" +
+                $"10% ({(salary*0.10):f2} лв.) for wants " +
+                $"(restaurants, entertainment, vacations, luxuary items, electronics)");
 
             Console.WriteLine($"Money for car:{percentConverterForCar:f2}% ");
 
@@ -95,7 +99,9 @@ namespace BudgetTest
 
             Console.WriteLine($"Result:");
 
-            Console.WriteLine($"Needs: {percentConverterForNeeds:f2}%({(percentConverterForNeeds / 100 * salary):f2}лв.) Investment:{percentConverterForInvestment:f2}%({(percentConverterForInvestment / 100 * salary):f2}лв.) Wants:{percentConverterForWant:f2}%({(percentConverterForWant / 100 * salary):f2}лв.)");
+            Console.WriteLine($"Needs: {percentConverterForNeeds:f2}%({(percentConverterForNeeds / 100 * salary):f2}лв.)" +
+                $" Investment:{percentConverterForInvestment:f2}%({(percentConverterForInvestment / 100 * salary):f2}лв.)" +
+                $" Wants:{percentConverterForWant:f2}%({(percentConverterForWant / 100 * salary):f2}лв.)");
         }
 
         private static double GiveMeProcent(double salary, double expenditure)
