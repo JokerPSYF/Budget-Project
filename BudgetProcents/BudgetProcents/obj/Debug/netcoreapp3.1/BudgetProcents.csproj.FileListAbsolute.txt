@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\BudgetProcents\BudgetProcents\bin\Debug\netcoreapp3.1\BudgetProcents.exe
+C:\Users\Admin\source\repos\BudgetProcents\BudgetProcents\bin\Debug\netcoreapp3.1\BudgetProcents.deps.json
+C:\Users\Admin\source\repos\BudgetProcents\BudgetProcents\bin\Debug\netcoreapp3.1\BudgetProcents.runtimeconfig.json
+C:\Users\Admin\source\repos\BudgetProcents\BudgetProcents\bin\Debug\netcoreapp3.1\BudgetProcents.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\BudgetProcents\BudgetProcents\bin\Debug\netcoreapp3.1\BudgetProcents.dll
+C:\Users\Admin\source\repos\BudgetProcents\BudgetProcents\bin\Debug\netcoreapp3.1\BudgetProcents.pdb
+C:\Users\Admin\source\repos\BudgetProcents\BudgetProcents\obj\Debug\netcoreapp3.1\BudgetProcents.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\BudgetProcents\BudgetProcents\obj\Debug\netcoreapp3.1\BudgetProcents.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\BudgetProcents\BudgetProcents\obj\Debug\netcoreapp3.1\BudgetProcents.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\BudgetProcents\BudgetProcents\obj\Debug\netcoreapp3.1\BudgetProcents.AssemblyInfo.cs
+C:\Users\Admin\source\repos\BudgetProcents\BudgetProcents\obj\Debug\netcoreapp3.1\BudgetProcents.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\BudgetProcents\BudgetProcents\obj\Debug\netcoreapp3.1\BudgetProcents.dll
+C:\Users\Admin\source\repos\BudgetProcents\BudgetProcents\obj\Debug\netcoreapp3.1\BudgetProcents.pdb
+C:\Users\Admin\source\repos\BudgetProcents\BudgetProcents\obj\Debug\netcoreapp3.1\BudgetProcents.genruntimeconfig.cache
