@@ -104,6 +104,7 @@ namespace BudgetTest
             Console.WriteLine($"Needs: {percentConverterForNeeds:f2}%({(percentConverterForNeeds / 100 * salary):f2}лв.)" +
                 $" Investment:{percentConverterForInvestment:f2}%({(percentConverterForInvestment / 100 * salary):f2}лв.)" +
                 $" Wants:{percentConverterForWant:f2}%({(percentConverterForWant / 100 * salary):f2}лв.)");
+            Console.WriteLine();
         }
 
         private static decimal GiveMeProcent(decimal salary, decimal expenditure)
