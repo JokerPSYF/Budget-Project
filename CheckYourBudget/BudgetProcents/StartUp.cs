@@ -2,9 +2,9 @@ using System;
 
 namespace BudgetTest
 {
-    class Program
+   public class StartUp
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             //ПРОГРАМА КОЯТО ЩЕ ПОКАЖЕ ПО ПРОЦЕНТИ ЗА КАКВО СИ ХАЧРИШ ПАРИТЕ НАЙ-МНОГО В ДАДЕНИЯ МЕСЕЦ
 
@@ -104,6 +104,15 @@ namespace BudgetTest
             Console.WriteLine($"Needs: {percentConverterForNeeds:f2}%({(percentConverterForNeeds / 100 * salary):f2}лв.)" +
                 $" Investment:{percentConverterForInvestment:f2}%({(percentConverterForInvestment / 100 * salary):f2}лв.)" +
                 $" Wants:{percentConverterForWant:f2}%({(percentConverterForWant / 100 * salary):f2}лв.)");
+
+            Console.WriteLine("Do you wanna start over y/n");
+            string input = Console.ReadLine();
+
+            if (input == "y")
+            {
+                Console.Clear();
+                StartUp.Main();
+            }
         }
 
         private static decimal GiveMeProcent(decimal salary, decimal expenditure)
@@ -112,5 +121,4 @@ namespace BudgetTest
             return procent;
         }
     }
-
 }
