@@ -8,6 +8,9 @@ namespace BudgetTest
         {
             //ПРОГРАМА КОЯТО ЩЕ ПОКАЖЕ ПО ПРОЦЕНТИ ЗА КАКВО СИ ХАЧРИШ ПАРИТЕ НАЙ-МНОГО В ДАДЕНИЯ МЕСЕЦ
 
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.White;
+
             //INPUT
             Console.Write("Put your salary: "); decimal salary = decimal.Parse(Console.ReadLine());
 
