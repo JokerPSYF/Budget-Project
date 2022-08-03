@@ -1,4 +1,5 @@
 using System;
+using System.Text;
 
 namespace BudgetTest
 {
@@ -10,6 +11,9 @@ namespace BudgetTest
 
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.White;
+
+            Console.OutputEncoding = Encoding.Unicode;
+
 
             //INPUT
             Console.Write("Put your salary: "); decimal salary = decimal.Parse(Console.ReadLine());
